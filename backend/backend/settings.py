@@ -10,7 +10,7 @@ DEBUG = os.getenv('DEBUG', '0') == '1'
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
 
-#  Application definition
+# Application definition
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
